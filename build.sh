@@ -1,3 +1,3 @@
 #!/bin/bash -e
-docker image build -t olgac/haproxy-for-rabbitmq:1.8.14-alpine .
-docker push olgac/haproxy-for-rabbitmq:1.8.14-alpine
+docker image build -t via/haproxy:2.5.1-alpine .
+docker push via/haproxy:2.5.1-alpine
